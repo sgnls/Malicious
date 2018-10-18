@@ -3,6 +3,7 @@
 
 from pwn import *
 
+log.info("Pwnage by memN0ps!!!")
 p = remote("docker.hackthebox.eu", 43944)
 #context(terminal=['tmux', 'new-window'])
 #p = process("./ropme")
