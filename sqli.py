@@ -1,7 +1,7 @@
 from bottle import route, request, run
 import requests
 
-#Author memN0ps
+#Author memN0ps and @mumbai
 #This function is used to register in /register.php 
 #Since there is a SQL injection in the register fields, a script it made to automate the process
 #We can use SQLmap to inject malicious code in localhost port 8081
